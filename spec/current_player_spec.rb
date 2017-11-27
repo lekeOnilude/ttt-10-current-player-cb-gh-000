@@ -27,5 +27,5 @@ require_relative '../lib/current_player.rb'
 
       expect(current_player(board)).to eq("X")
     end
-  end  
-end
+  end
+#end
