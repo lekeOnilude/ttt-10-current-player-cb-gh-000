@@ -1,13 +1,13 @@
 require_relative '../lib/current_player.rb'
 
 #describe './lib/current_player.rb' do
-describe '#turn_count' do
-  it 'counts occupied positions' do
-    board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
+#describe '#turn_count' do
+it 'counts occupied positions' do
+  board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
 
-    expect(turn_count(board)).to eq(3)
-  end
+  expect(turn_count(board)).to eq(3)
 end
+#end
 
 describe '#current_player' do
   it 'returns the correct player, X, for the first move' do
