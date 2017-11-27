@@ -17,5 +17,3 @@ def current_player(board)
   end
 end
 
-board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
-puts current_player(board)
